@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="../public/schedule.css">
+</head>
+<body>
+    <div class="overlay">
+    <h1>Healthy Schedule</h1>
+    
+    <form id="scheduleForm">
+        <table id="scheduleTable">
+            <thead>
+                <tr>
+                    <th>Waktu</th>
+                    <th>Aktivitas</th>
+                    <th>Terlaksanakan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>04:00 - 5:00</td>
+                    <td>Bangun pagi</td>
+                    <td><input type="checkbox" name="activity1"></td>
+                </tr>
+                <tr>
+                    <td>06:00 - 07:00</td>
+                    <td>Jogging di pagi hari</td>
+                    <td><input type="checkbox" name="activity2"></td>
+                </tr>
+                <tr>
+                    <td>08:00 - 09:00</td>
+                    <td>Sarapan Sehat</td>
+                    <td><input type="checkbox" name="activity3"></td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Konsumsi buah atau jus</td>
+                    <td><input type="checkbox" name="activity4"></td>
+                </tr>
+                <tr>
+                    <td>12:00 - 13:00</td>
+                    <td>Makan siang dengan sayur</td>
+                    <td><input type="checkbox" name="activity5"></td>
+                </tr>
+                <tr>
+                    <td>14:00 - 15:00</td>
+                    <td>Konsumsi cemilan sehat</td>
+                    <td><input type="checkbox" name="activity6"></td>
+                </tr>
+                <tr>
+                    <td>17:00 - 18:00</td>
+                    <td>Yoga di sore hari</td>
+                    <td><input type="checkbox" name="activity7"></td>
+                </tr>
+                <tr>
+                    <td>19:00 - 20:00</td>
+                    <td>Makan malam tanpa minyak</td>
+                    <td><input type="checkbox" name="activity8"></td>
+                </tr>
+                <tr></tr>
+                    <td>21:00 - 22:00</td>
+                    <td>Tidur lebih cepat</td>
+                    <td><input type="checkbox" name="activity9"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="submit" id="submit">Submit Schedule</button> <br>
+        <button type="button" onclick="window.location.href = 'healthy.html'" id="back">Back</button>
+    </form>
+
+    <script src="../js/schedule.js"></script>
+    </div>
+</body>
+</html>

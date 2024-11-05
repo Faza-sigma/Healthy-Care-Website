@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Food Recommendations</title>
+    <link rel="stylesheet" href="../public/recomend.css">
+</head>
+<body>
+    <h1>Food Recommendations</h1>
+    <div class="container">
+        <div class="card" id="breakfast-card">Breakfast: Telur rebus dengan sayur</div>
+        <div class="card" id="lunch-card">Lunch: Ayam panggang dengan nasi merah</div>
+        <div class="card" id="dinner-card">Dinner: Salmon panggang dengan quinoa</div>
+        <div class="card" id="snack-card">Snack: Kacang almond dan buah-buahan</div>
+    </div>
+    <div class="nav-buttons">
+        <button onclick="nextSlide('breakfast')">Next Breakfast</button>
+        <button onclick="nextSlide('lunch')">Next Lunch</button>
+        <button onclick="nextSlide('dinner')">Next Dinner</button>
+        <button onclick="nextSlide('snack')">Next Snack</button>
+    </div>
+    <br><br><br>
+        <button id="back" onclick="window.location.href= 'healthy.html'">Back</button>
+    <script src="../js/recomend.js"></script>
+</body>
+</html>

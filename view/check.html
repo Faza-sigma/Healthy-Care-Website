@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Check</title>
+    <link rel="stylesheet" href="../public/check.css">
+</head>
+<body>
+    <div class="check-container">
+        <h1>Health Check</h1>
+        <form id="check-form">
+            <input type="number" id="height" placeholder="Tinggi badan kamu (cm)" required>
+            <input type="number" id="weight" placeholder="Berat badan kamu (kg)" required>
+            <button type="submit" id="submit">Check Now</button><br>
+            <button type="button" id="back" onclick="window.location.href = 'healthy.html'">Back</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="../js/check.js"></script>
+</body>
+</html>

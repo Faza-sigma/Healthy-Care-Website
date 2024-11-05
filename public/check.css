@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('..//Image/Image\ Check.png');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.check-container {
+    background: linear-gradient(0deg, azure 8%, rgb(238, 196, 59,0) 300%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #7AB2B2;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#submit {
+    background-color: #56ab2f;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #388e3c;
+}
+
+#back {
+    background-color: #FF9EAA;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+#back:hover {
+    background-color: rgb(178, 87, 102);
+}
